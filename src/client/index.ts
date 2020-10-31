@@ -1,5 +1,5 @@
-import "module-alias/register";
-import { getOne } from "@common";
+import "../common/setup";
+import { getOne } from "@hlsp/common";
 
 export function run() {
   console.log("getOne:", getOne());
