@@ -2,6 +2,8 @@
 
 A simple lsp to help perform basic linting rules on files
 
+This code is a refactor of [lsp-sample repo](https://github.com/microsoft/vscode-extension-samples/tree/master/lsp-sample) which has this [vscode tutorial](https://code.visualstudio.com/api/language-extensions/language-server-extension-guide)
+
 ## LSP spec details
 
 The point is to highlight mistakes and provide greater insight and rules for various docs.
