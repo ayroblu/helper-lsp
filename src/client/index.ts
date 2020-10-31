@@ -1,4 +1,3 @@
-import "../common/setup";
 import { getOne } from "@hlsp/common";
 
 export function run() {

@@ -10,6 +10,15 @@
     "sourceType": "module"
   },
   "rules": {
+    "prefer-template": "error",
+    "no-useless-concat": "error",
+    "arrow-body-style": "error",
+    "no-extra-boolean-cast": "error",
+    "curly": ["error", "multi", "consistent"],
+    "dot-notation": "error",
+    "eqeqeq": "error",
+    "prefer-const": "error",
+    "prefer-destructuring": "error",
     "import/no-unresolved": "off",
     "import/order": [
       "error",
