@@ -1,0 +1,24 @@
+{
+  "name": "helper-lsp",
+  "version": "1.0.0",
+  "description": "Helper LSP ==========",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc -b -v",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "private": true,
+  "license": "ISC",
+  "dependencies": {
+    "@types/module-alias": "^2.0.0",
+    "module-alias": "^2.2.2",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.5"
+  },
+  "_moduleAliases": {
+    "@common": "dist/common",
+    "@server": "dist/server",
+    "@client": "dist/client"
+  }
+}
