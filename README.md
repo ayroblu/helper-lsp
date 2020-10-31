@@ -37,3 +37,8 @@ Details can be found here: https://github.com/neoclide/coc.nvim/wiki/Debug-langu
 ## Possible ideas?
 
 - Reference points for documentation - hyperlinks with reference checks?
+  - For key ideas, imagine importing them? The main benefit is hyperlinks?
+  - Real struggle to know what is "common english" and what is "domain specific"
+- Checksum for comments, i.e. if the code below change, the checksum should change
+  - This feels like a linter? Like an eslint plugin
+  - This can be extremely painful, for example switching on a "prettier" or similar would not be possible because for example, the comment might be in the wrong place, plus there would be a lot of errors
